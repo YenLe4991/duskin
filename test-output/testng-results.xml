@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38286" started-at="2017-02-23T01:45:12Z" finished-at="2017-02-23T01:45:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38286" started-at="2017-02-23T01:45:12Z" finished-at="2017-02-23T01:45:51Z">
+      <class name="duskin.uttest.UT_CheckValidation_EditSubCategory">
+        <test-method status="PASS" signature="TestSubCategoryName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:duskin.uttest.UT_CheckValidation_EditSubCategory@5442a311]" name="TestSubCategoryName" duration-ms="21339" started-at="2017-02-23T08:45:12Z" data-provider="CategoryName" finished-at="2017-02-23T08:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[選択してください]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[選択してください sub]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[this is path name]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[list 1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test_category1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[tag Seo 1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test sub category 1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[this is path name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSubCategoryName -->
+        <test-method status="PASS" signature="TestSubCategoryName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:duskin.uttest.UT_CheckValidation_EditSubCategory@5442a311]" name="TestSubCategoryName" duration-ms="16636" started-at="2017-02-23T08:45:34Z" data-provider="CategoryName" finished-at="2017-02-23T08:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[選択してください]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[選択してください sub]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[this is path name]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[list 2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test_category2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[tag Seo 2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test sub category 2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[選択してください sub Edit]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[this is path name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSubCategoryName -->
+        <test-method status="SKIP" signature="TestSubListFile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:duskin.uttest.UT_CheckValidation_EditSubCategory@5442a311]" name="TestSubListFile" duration-ms="0" started-at="2017-02-23T08:45:51Z" data-provider="PathName" finished-at="2017-02-23T08:45:51Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:163)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1274)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:989)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1079)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: java.lang.NullPointerException
+	at base.ReadData.getExcelData(ReadData.java:20)
+	at duskin.uttest.UT_CheckValidation_EditSubCategory.testDataListFile(UT_CheckValidation_EditSubCategory.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:137)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSubListFile -->
+      </class> <!-- duskin.uttest.UT_CheckValidation_EditSubCategory -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
